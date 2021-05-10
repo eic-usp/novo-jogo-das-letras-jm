@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+#confeti {
+  background-image: url("../public/g10.png");
+  width: 90%;
+  height: 100%;
+}
+
+body {
+  background-image: url("../public/background.png");
+  overflow: hidden;
+  font-family: Roboto !important;
+}
+a,
+a:visited,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+.espaco {
+  background-color: #b5b4f8;
+  border: 2px solid #020067;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  z-index: 0;
+}
+
+.letra {
+  background: #2a279d;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 2px;
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none;
+}
+.mobile {
+  height: 30px;
+  width: 44px;
+}
+.desktop {
+  height: 56px;
+  width: 48px;
+}
+
+.enunciado {
+  background: #020067;
+  border-radius: 16px;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.005em;
+  z-index: 1;
+  vertical-align: center;
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enunciado.mobile {
+  width: 92vw;
+  height: 15vh;
+  position: absolute;
+  left: -3vw;
+  top: 2.5vh;
+  margin-bottom: 15vh;
+  justify-content: center;
+  vertical-align: middle;
+}
+.enunciado.desktop {
+  width: 65vw;
+  height: 20vh;
+  position: absolute;
+  top: 5vh;
+  left: -2.5vw;
+}
+
+.enunciado.mobile.inicial {
+  height: 20vh !important;
+}
+.enunciado.desktop.inicial {
+  height: 30vh !important;
+  display: block !important;
+}
+
+.scope {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.scope.mobile {
+  width: 85vw;
+  height: 65vh;
+  bottom: -3vh;
+  left: 5vw;
+  padding-top: 13vh;
+  margin-top: 3vh;
+}
+
+.scope.desktop {
+  width: 58vw;
+  height: 55vh;
+  top: 10vh;
+  left: 20vw;
+  padding-top: 20vh;
+}
+
+.bloco-lilas {
+  background-color: #7b79f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  width: 20%;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.bloco-lilas.mobile {
+  width: 28vw;
+  left: 75%;
+  height: 90vh;
+  top: -5vh;
+}
+.bloco-lilas.desktop {
+  width: 10vw;
+  left: 90%;
+  height: 90vh;
+  top: -7.5vh;
+}
+
+.bloco-lilas-transparente {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 3;
+  margin-left: 60%;
+}
+
+.conteudo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-redondo {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.botao-redondo.escuro {
+  background-color: #2a279d;
+}
+.botao-redondo.lilas {
+  background-color: #7b79f1;
+}
+.botao-redondo.rosa {
+  background-color: #ff5b71;
+}
+.botao-redondo.verde {
+  background-color: #19af92;
+}
+.cronometro {
+  background: #ffffff;
+  border-radius: 8px;
+  color: black;
+}
+
+.faseX {
+  border-radius: 4px;
+  color: black;
+}
+
+.tema {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+}
+.dark {
+  background-color: #020067;
+}
+.roxo {
+  background-color: #5251b3;
+}
+.azul {
+  background-color: #2f2db3;
+}
+.lilas {
+  background-color: #7b79f1;
+}
+
+.droparea {
+  background-color: white;
+  z-index: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: unset;
+  grid-template-rows: "1fr 1fr";
+}
+
+.fases {
+  background: #2c73af;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.texto {
+  border-radius: 4px;
+  margin: 2px;
+  width: max-content;
+  padding: 2px;
+  font-size: xx-small;
+}
+
+.swal2-styled {
+  color: #000 !important;
+}
