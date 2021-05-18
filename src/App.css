@@ -55,7 +55,7 @@ a:active {
 }
 
 .enunciado {
-  background: #020067;
+  background: #087A64;
   border-radius: 16px;
   color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -124,7 +124,7 @@ a:active {
 }
 
 .bloco-lilas {
-  background-color: #7b79f1;
+  background-color: #0D3A7D;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   width: 20%;
@@ -174,10 +174,10 @@ a:active {
   margin: 5px;
 }
 .botao-redondo.escuro {
-  background-color: #2a279d;
+  background-color: #1ABC9C;
 }
 .botao-redondo.lilas {
-  background-color: #7b79f1;
+  background-color: #2966C0;
 }
 .botao-redondo.rosa {
   background-color: #ff5b71;
@@ -219,7 +219,7 @@ a:active {
   background-color: #2f2db3;
 }
 .lilas {
-  background-color: #7b79f1;
+  background-color: #087A64;
 }
 
 .droparea {
